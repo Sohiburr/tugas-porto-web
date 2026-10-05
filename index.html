@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The personal portfolio of Sohibur Rizki, an Informatics Engineering student interested in software development and project management."
+    />
+    <meta name="theme-color" content="#f5f6f2" />
+    <title>Sohibur Rizki — Informatics Engineering Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Main navigation">
+        <a class="wordmark" href="#home" aria-label="Sohibur Rizki, home">sr<span>.</span></a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> INFORMATICS ENGINEERING STUDENT</p>
+          <h1 id="hero-title">Curious by nature.<br />Building <span>with purpose.</span></h1>
+          <p class="hero-intro">
+            I’m Sohibur Rizki — exploring the space where thoughtful software and good ideas
+            come together.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#skills">Explore my skills <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-orbit orbit-three"></div>
+          <div class="art-core"><span>SR</span></div>
+          <span class="art-tag tag-top">IDEAS → IMPACT</span>
+          <span class="art-tag tag-bottom">ALWAYS LEARNING<span class="tag-spark">✳</span></span>
+          <span class="art-cross cross-one">+</span>
+          <span class="art-cross cross-two">+</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        <span class="hero-index" aria-hidden="true">01 / 04</span>
+      </section>
+
+      <section class="about section shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME <span class="heading-line"></span></p>
+          <span class="section-number">02</span>
+        </div>
+        <div class="about-grid">
+          <h2 id="about-title">I like making<br />complex things<br /><span>make sense.</span></h2>
+          <div class="about-copy">
+            <p>
+              I’m an Informatics Engineering student with a curiosity for how technology can
+              solve real problems. I enjoy learning how software works, from the first sketch
+              of an idea to the details that make it useful.
+            </p>
+            <p>
+              Alongside software development, I’m interested in project management: bringing
+              people, plans, and the right priorities together to move good ideas forward.
+            </p>
+            <div class="about-note">
+              <span class="note-mark">✳</span>
+              <span>Learning, building, and getting a little better every day.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills" aria-labelledby="skills-title">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">TOOLS I WORK WITH <span class="heading-line"></span></p>
+            <span class="section-number">03</span>
+          </div>
+          <div class="skills-intro">
+            <h2 id="skills-title">My current<br /><span>toolkit.</span></h2>
+            <p>
+              A growing set of tools for turning ideas into thoughtful, practical digital
+              experiences.
+            </p>
+          </div>
+          <ul class="skill-grid" aria-label="Skills">
+            <li class="skill-card">
+              <span class="skill-index">01</span>
+              <span class="skill-icon icon-go" aria-hidden="true">Go</span>
+              <span class="skill-name">Go</span>
+              <span class="skill-type">LANGUAGE</span>
+            </li>
+            <li class="skill-card">
+              <span class="skill-index">02</span>
+              <span class="skill-icon icon-vue" aria-hidden="true">V</span>
+              <span class="skill-name">Vue.js</span>
+              <span class="skill-type">FRAMEWORK</span>
+            </li>
+            <li class="skill-card">
+              <span class="skill-index">03</span>
+              <span class="skill-icon icon-python" aria-hidden="true">Py</span>
+              <span class="skill-name">Python</span>
+              <span class="skill-type">LANGUAGE</span>
+            </li>
+            <li class="skill-card">
+              <span class="skill-index">04</span>
+              <span class="skill-icon icon-postgres" aria-hidden="true">⌘</span>
+              <span class="skill-name">PostgreSQL</span>
+              <span class="skill-type">DATABASE</span>
+            </li>
+            <li class="skill-card">
+              <span class="skill-index">05</span>
+              <span class="skill-icon icon-figma" aria-hidden="true">F</span>
+              <span class="skill-name">Figma</span>
+              <span class="skill-type">DESIGN</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact section shell" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">HAVE A GOOD IDEA? <span class="heading-line"></span></p>
+          <span class="section-number">04</span>
+        </div>
+        <div class="contact-content">
+          <div>
+            <h2 id="contact-title">Let’s make<br />something <span>meaningful.</span></h2>
+            <p class="contact-caption">I’d love to hear from you.</p>
+          </div>
+          <a class="email-link" href="mailto:sohiburrizki424@gmail.com">
+            <span>sohiburrizki424@gmail.com</span>
+            <span class="email-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a class="wordmark footer-mark" href="#home" aria-label="Back to top">sr<span>.</span></a>
+        <p>Designed with curiosity<span> · </span>© <span id="year"></span> Sohibur Rizki</p>
+        <a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
